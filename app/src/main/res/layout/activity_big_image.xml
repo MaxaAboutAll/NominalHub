@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.SO40G.scryptan.nominalhub.Views.BigImageActivity"
+    android:background="#80000000">
+
+    <ImageView
+        android:id="@+id/myImageIV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="OnClick"/>
+
+    <Button
+        android:id="@+id/backBTN"
+        android:layout_width="57dp"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="OnClick"
+        android:background="@drawable/big_image_back"/>
+
+    <Button
+        android:id="@+id/saveBTN"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/big_image_save"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:onClick="OnClick"
+        />
+
+</RelativeLayout>

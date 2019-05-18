@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2e3132</color>
+    <color name="colorPrimaryDark">#2e3132</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="cardBckg">#7d414344</color>
+    <color name="bckg">#4e4f4f</color>
+    <color name="toolBckg">#2b2f32</color>
+    <color name="PTBckg">#7d7d7d</color>
+    <color name="border_color">#31799b</color>
+</resources>

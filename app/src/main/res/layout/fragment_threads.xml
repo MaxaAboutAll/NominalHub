@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.SO40G.scryptan.nominalhub.Views.Fragments.ThreadsFragment">
+
+    <ListView
+        android:id="@+id/threadsLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</FrameLayout>
